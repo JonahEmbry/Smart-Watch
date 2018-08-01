@@ -1,1 +1,2 @@
-# Smart-Watch
+# Smartwatch
+This site will provide the files for the various versions of my smartwatch. Please read the Read Me files before downloading to ensure you get the proper set of files.
