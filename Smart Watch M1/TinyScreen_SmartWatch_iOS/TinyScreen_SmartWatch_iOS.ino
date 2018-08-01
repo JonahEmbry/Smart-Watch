@@ -329,23 +329,6 @@ void displayFlashlight(uint8_t button) {
     display.setBrightness(12);
     display.setCursor(59, menuTextY[3]);
     display.print(F("back >"));
-/*
-    if (amtNotifications) {
-      if (menu_debug_print)Serial.println("amtNotifications=true");
-      display.setCursor(0, menuTextY[0]);
-      display.print(notificationLine1);
-      display.setCursor(0, menuTextY[1]);
-      display.print(notificationLine2);
-      display.setCursor(56, menuTextY[3]);
-      display.print("clear >");
-    } else {
-      if (menu_debug_print)Serial.println("amtNotifications=false");
-      display.setCursor(0, menuTextY[0]);
-      display.print(F(" No notifications.   "));
-      display.setCursor(59, menuTextY[3]);
-      display.print(F("back >"));
-    }
-*/
   } else {
     if (button == clearButton) {
       //currentNotification=NULL;
