@@ -1,7 +1,7 @@
 //-------------------------------------------------------------------------------
 //  Original Code: TinyCircuits TinyScreen/NRF8001 Smartwatch iOS Example Sketch
 //  Modified by Jonah Embry (Embry Industries) 
-//  Last Update:  7/28/2018
+//  Last Update:  8/1/2018
 //
 //  Sets up the NRF8001 to connect with Apple's ANCS BLE notification
 //  system using Notif library https://github.com/robotastic/ANCS-Library
