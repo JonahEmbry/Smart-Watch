@@ -1,15 +1,16 @@
 //-------------------------------------------------------------------------------
-//  TinyCircuits TinyScreen/NRF8001 Smartwatch Example Sketch
-//  Last Updated 29 February 2016
+//  Original Code: TinyCircuits TinyScreen/NRF8001 Smartwatch Example Sketch
+//  Modified by Jonah Embry (Embry Industries) 
+//  Last Update:  8/1/2018
 //
-//  This demo sets up the NRF8001 for Nordic's BLE virtual UART connection, then
+//  Sets up the NRF8001 for Nordic's BLE virtual UART connection, then
 //  accepts a date setting string with the format "Dyyyy MM dd k m s" or a
 //  notification string starting with a 1 or 2(for line 1 or 2) followed by the
 //  short text string to display. Time, date, notifications are displayed, and a
 //  simple sleep mode is implemented to save some power.
 //
-//  Written by Ben Rose, TinyCircuits http://Tiny-Circuits.com
-//
+//  Original Author: Ben Rose, TinyCircuits http://Tiny-Circuits.com
+//  Modified and Re-distributed by Jonah Embry, Embry Industries https://embryindustries.weebly.com/
 //-------------------------------------------------------------------------------
 
 
